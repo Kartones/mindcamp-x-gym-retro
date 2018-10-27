@@ -1,0 +1,24 @@
+{
+  "info": {
+    "ball_x": {
+      "address": 51213,
+      "type": "|u1"
+    },
+    "lives": {
+      "address": 51780,
+      "type": "|u1"
+    },
+    "player_x_start": {
+      "address": 51201,
+      "type": "=u2"
+    },
+    "player_x_end": {
+      "address": 51209,
+      "type": "=u2"
+    },
+    "score": {
+      "address": 65482,
+      "type": "<u2"
+    }
+  }
+}

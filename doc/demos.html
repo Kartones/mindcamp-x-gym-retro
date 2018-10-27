@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demos</title>
+</head>
+<body>
+
+<div style="margin-top: 6px; text-align: center">
+    <input type="button" onclick="demo('img/nes_smashtv_epsilon_greedy_best_iteration.gif')" value="GUI">
+    <input type="button" onclick="demo('img/agent_non_rl.gif')" value="Alleway">
+    <input type="button" onclick="demo('img/nes_smashtv_epsilon_greedy_1.gif')" value="Smash TV #1">
+    <input type="button" onclick="demo('img/nes_smashtv_epsilon_greedy_2.gif')" value="Smash TV #2">
+    <input type="button" onclick="demo('img/golden_axe_01.gif')" value="Golden Axe #1">
+    <input type="button" onclick="demo('img/golden_axe_02.gif')" value="Golden Axe #2">
+    <input type="button" onclick="demo('img/golden_axe_03.gif')" value="Golden Axe #3">
+</div>
+
+<div style="margin-top: 18px; text-align: center">
+    <img id="demo-img" src="img/alleway_screen.png" style="width: 800px" />
+</div>
+
+<script>
+    function demo(path) {
+        document.getElementById("demo-img").src = path;
+    }
+</script>
+
+</body>
+</html>

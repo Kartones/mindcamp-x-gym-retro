@@ -1,0 +1,20 @@
+{
+  "info": {
+    "energy": {
+      "address": 16776830,
+      "type": "|u1"
+    },
+    "lives": {
+      "address": 16776828,
+      "type": "|i1"
+    },
+    "relative_x_pos": {
+      "address": 16763670,
+      "type": ">d2"
+    },
+    "score": {
+      "address": 16776818,
+      "type": ">u4"
+    }
+  }
+}

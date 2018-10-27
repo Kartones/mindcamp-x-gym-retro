@@ -1,0 +1,17 @@
+{
+    "done": {
+      "condition": "any",
+      "variables": {
+        "p1_lives": {
+          "op": "zero"
+        }
+      }
+    },
+    "reward": {
+      "variables": {
+        "score": {
+          "reward": 1.0
+        }
+      }
+    }
+  }

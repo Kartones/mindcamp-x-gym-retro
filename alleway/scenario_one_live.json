@@ -1,0 +1,18 @@
+{
+  "done": {
+    "condition": "any",
+    "variables": {
+      "lives": {
+        "op": "less-than",
+        "reference": 4
+       }
+     }
+  },
+  "reward": {
+    "variables": {
+      "score": {
+        "reward": 1.0
+      }
+    }
+  }
+}
